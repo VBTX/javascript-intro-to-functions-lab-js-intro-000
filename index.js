@@ -4,14 +4,14 @@ function shout(hello){
 function whisper(HELLO){
   return 'HELLO'.toLowerCase()
 }
-function logShout(string){
-  console.log("string".toUppercase);
+function logShout(hello){
+  console.log("hello".toUppercase);
 }
-function logWhisper(string){
-  console.log("string".toLowerCase);
+function logWhisper(HELLO){
+  console.log("HELLO".toLowerCase);
 }
-function sayHiToGrandma(string){
-  if ('string'.toLowerCase) {
+function sayHiToGrandma(hello){
+  if ('hello'.toLowerCase) {
     return "I can't hear you!"
   }
 }
