@@ -15,13 +15,13 @@ function sayHiToGrandma(string){
     return "I can't hear you!"
   }
 }
-function sayHiToGrandma(string){
-  if('string'.toUpperCase){
+function sayHiToGrandma(hello){
+  if('hello'.toUpperCase){
     return "YES INDEED!"
   }
   }
-  function sayHiToGrandma(string){
-    if(string==="I love you, Grandma."){
+  function sayHiToGrandma(hello){
+    if('hello'==="I love you, Grandma."){
       return "I love you, too"
     }
   }
