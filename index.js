@@ -4,12 +4,17 @@ function shout(hello){
 function whisper(HELLO){
   return HELLO.toLowerCase()
 }
-function logShout(hello){
-  return console.log(hello.toUppercase())
+logShout("hello")
+function logShout(string){
+  return console.log(string.toUppercase())
 }
-function logWhisper(HELLO){
-  return console.log(HELLO.toLowerCase())
+
+logWhisper("HELLO")
+function logWhisper(string){
+  return console.log(string.toLowerCase())
 }
+
+
 function sayHiToGrandma(hello){
   if ('hello'.toLowerCase()) {
     return "I can't hear you!";
