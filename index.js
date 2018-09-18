@@ -1,22 +1,22 @@
 function shout(hello){
-  return 'hello'.toUpperCase()
+  return hello.toUpperCase()
 }
 function whisper(HELLO){
-  return 'HELLO'.toLowerCase()
+  return HELLO.toLowerCase()
 }
 function logShout(hello){
-  console.log(hello.toUppercase);
+  console.log(hello.toUppercase());
 }
 function logWhisper(HELLO){
-  console.log(HELLO.toLowerCase);
+  console.log(HELLO.toLowerCase());
 }
 function sayHiToGrandma(hello){
-  if ('hello'.toLowerCase) {
+  if ('hello'.toLowerCase()) {
     return "I can't hear you!";
   }
 }
 function sayHiToGrandma(hello){
-  if('hello'.toUpperCase){
+  if('hello'.toUpperCase()){
     return "YES INDEED!";
   }
   }
